@@ -1,0 +1,103 @@
+2026-07-21 20:37:47,905 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-07-21 20:37:47,908 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-07-21 20:37:47,910 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-07-21 20:37:47,929 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 66974
+2026-07-21 20:37:47,929 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 66976
+2026-07-21 21:09:46,426 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.4
+2026-07-21 21:09:46,428 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.3
+2026-07-21 21:09:46,428 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-07-21 21:09:47,008 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2026-07-21 21:09:48,950 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2026-07-21 21:09:49,533 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-07-21 21:09:49,535 [INFO] [MainThread] [root/bar_manager.py:85]: Starting KomorebiEventListener...
+2026-07-21 21:09:49,535 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\Ciro\.config\yasb
+2026-07-21 21:09:49,535 [INFO] [Dummy-5] [root/event_listener.py:51]: Created named pipe yasb-bec32292-8537-11f1-b870-e862be2e7d91
+2026-07-21 21:09:49,571 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-07-21 21:09:49,571 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-07-21 21:09:49,573 [DEBUG] [MainThread] [systray_widget/systray.py:549]: Loading state from C:\Users\Ciro\AppData\Local\YASB\systray_state_ONLGULTRAGEAR99993.json
+2026-07-21 21:09:49,583 [DEBUG] [TrayMonitor] [systray_widget/systray.py:58]: Systray thread is starting...
+2026-07-21 21:09:49,583 [DEBUG] [TaskbarService] [systray_widget/systray.py:72]: TaskbarService thread is starting...
+2026-07-21 21:09:49,585 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 66824
+2026-07-21 21:09:49,585 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 66824
+2026-07-21 21:09:49,597 [DEBUG] [MainThread] [systray_widget/systray.py:298]: Systray thread started
+2026-07-21 21:09:49,797 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 66824
+2026-07-21 21:09:49,798 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2026-07-21 21:09:49,801 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:154]: Sending TaskbarCreated message: 49264
+2026-07-21 21:09:51,397 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2026-07-21 21:09:51,398 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2026-07-21 21:09:52,688 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2026-07-21 21:09:52,689 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2026-07-21 21:09:53,992 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2026-07-21 21:09:53,993 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2026-07-21 21:09:57,279 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2026-07-21 21:09:57,279 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2026-07-21 21:10:00,070 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2026-07-21 21:10:00,070 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2026-07-21 21:10:02,287 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2026-07-21 21:10:02,287 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2026-07-21 21:10:05,419 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2026-07-21 21:10:05,420 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2026-07-21 21:10:08,489 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2026-07-21 21:10:08,490 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2026-07-21 21:10:12,149 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2026-07-21 21:10:12,149 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2026-07-21 21:10:15,504 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-bec32292-8537-11f1-b870-e862be2e7d91
+2026-07-21 21:15:14,706 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2026-07-21 21:15:14,706 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2026-07-21 21:20:43,689 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2026-07-21 21:20:43,690 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2026-07-21 21:20:46,048 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2026-07-21 21:20:46,049 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2026-07-21 21:22:16,985 [INFO] [MainThread] [root/controller.py:35]: Exiting Application...
+2026-07-21 21:22:17,090 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-07-21 21:22:17,091 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-07-21 21:22:17,163 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping KomorebiEventListener...
+2026-07-21 21:22:17,164 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-07-21 21:22:17,164 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2026-07-21 21:22:17,164 [DEBUG] [MainThread] [systray_widget/systray.py:527]: Saving state to disk
+2026-07-21 21:22:17,165 [DEBUG] [MainThread] [systray_widget/systray.py:531]: Saving state to C:\Users\Ciro\AppData\Local\YASB\systray_state_ONLGULTRAGEAR99993.json
+2026-07-21 21:22:17,173 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 66824
+2026-07-21 21:22:17,173 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 66828
+2026-07-21 21:22:17,180 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-07-21 21:22:17,183 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-07-21 21:22:17,186 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-07-21 21:22:17,203 [INFO] [Dummy-5] [root/event_listener.py:92]: Attempting to reconnect to Komorebi...
+2026-07-21 21:22:17,211 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 66828
+2026-07-21 21:22:17,212 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 66824
+2026-07-22 16:32:01,972 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.4
+2026-07-22 16:32:01,973 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.3
+2026-07-22 16:32:01,974 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-07-22 16:32:02,609 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2026-07-22 16:32:04,926 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2026-07-22 16:32:05,433 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-07-22 16:32:05,435 [INFO] [MainThread] [root/bar_manager.py:85]: Starting KomorebiEventListener...
+2026-07-22 16:32:05,435 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\Ciro\.config\yasb
+2026-07-22 16:32:05,435 [INFO] [Dummy-5] [root/event_listener.py:51]: Created named pipe yasb-1c990d60-85da-11f1-b299-e862be2e7d91
+2026-07-22 16:32:05,473 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-07-22 16:32:05,474 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-07-22 16:32:05,475 [DEBUG] [MainThread] [systray_widget/systray.py:549]: Loading state from C:\Users\Ciro\AppData\Local\YASB\systray_state_ONLGULTRAGEAR99993.json
+2026-07-22 16:32:05,477 [DEBUG] [TrayMonitor] [systray_widget/systray.py:58]: Systray thread is starting...
+2026-07-22 16:32:05,478 [DEBUG] [TaskbarService] [systray_widget/systray.py:72]: TaskbarService thread is starting...
+2026-07-22 16:32:05,480 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 66876
+2026-07-22 16:32:05,480 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 66876
+2026-07-22 16:32:05,497 [DEBUG] [MainThread] [systray_widget/systray.py:298]: Systray thread started
+2026-07-22 16:32:05,697 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 66876
+2026-07-22 16:32:05,698 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2026-07-22 16:32:05,703 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:154]: Sending TaskbarCreated message: 49268
+2026-07-22 16:32:06,896 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2026-07-22 16:32:06,896 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2026-07-22 16:32:09,940 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2026-07-22 16:32:09,940 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2026-07-22 16:32:12,525 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2026-07-22 16:32:12,525 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2026-07-22 16:32:13,825 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2026-07-22 16:32:13,825 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2026-07-22 16:32:16,241 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2026-07-22 16:32:16,242 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2026-07-22 16:32:21,311 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-1c990d60-85da-11f1-b299-e862be2e7d91
+2026-07-22 16:37:17,637 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2026-07-22 16:37:17,637 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2026-07-22 16:57:49,311 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2026-07-22 16:57:49,312 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2026-07-22 16:57:52,005 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2026-07-22 16:57:52,005 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state

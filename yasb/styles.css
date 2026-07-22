@@ -1,0 +1,433 @@
+* {
+	font-size: 14px;
+	color: #cccaca;
+	font-weight: 700;
+	font-family: "JetBrainsMono NFP";
+	margin: 0;
+	padding: 0;
+}
+.yasb-bar {
+	padding: 0;
+	margin: 0;  
+}
+
+
+.widget {
+	
+	padding: 0 8px;
+	margin: 0;
+}
+.widget .label {
+	padding: 1px 2px 1px 2px;
+}
+.widget .label.alt {
+	padding: 1px 8px 1px 8px;
+}
+.active-window-widget {
+	border-radius: 18px;
+	margin-left: 8px
+
+}
+.container-left,
+.container-center,
+.container-right {
+	margin: 0;
+	padding: 5;
+
+}
+
+
+.clock-widget {
+	background-color: rgba(211, 211, 211, 0.2);
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.apps-widget {
+	padding: 0 2px;
+	background-color: rgba(211, 211, 211, 0.2);
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.komorebi-active-layout .widget-container {
+	margin:0;
+	padding: 0 0px 0 10px;
+}
+.komorebi-active-layout {
+	
+	border-top-right-radius: 18px;
+	border-bottom-right-radius: 18px;
+	padding: 0 4px 0 0;
+}
+
+.komorebi-active-layout .label {
+	font-size:30px;
+	font-weight: 800;
+	padding: 0px 0px 0px 0px;
+	color:rgba(200, 20 , 25 , 0.9);
+}
+.wifi-widget {
+	padding: 0 4px 0 4px;
+	border-top-left-radius: 18px;
+	border-bottom-left-radius: 18px;
+}
+
+.apps-widget .widget-container,
+.wifi-widget .widget-container {
+	
+	margin: 4px 0px 4px 0;
+	border-radius: 14px;
+}
+.komorebi-workspaces {
+    background: none;
+    color: var(--lavender);
+}
+.komorebi-workspaces .widget-container {
+    background-color: rgba(211, 211, 211, 0.2);
+    border-radius:8px;
+}
+.komorebi-workspaces {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    margin-left: 3px;
+}
+.komorebi-workspaces {
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    padding: 2px 4px 2px 4px;
+}
+.komorebi-workspaces .offline-status {
+    color: var(--surface2);
+    font-size: 12px;
+    padding: 0 0 0 4px;
+    font-weight: 600;
+}
+.komorebi-workspaces .ws-btn {
+    border:none;
+    color:transparent;
+    width: 16px;
+    height: 20px;
+    background-color: rgba(211, 211, 211, 0.4);
+    border-radius: 5px;
+    margin: 0 4px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 14px;
+    padding-left: -1px;
+    padding-right: -1px;
+
+}
+.komorebi-workspaces .ws-btn:hover {
+    color: rgba(211, 211, 211, 0);
+}
+.komorebi-workspaces .ws-btn.populated {
+    color: #ff0000; /*Changes label color*/
+    width: 16px;
+    height: 20px;
+    background-color: rgba(211, 211, 211, 0.4);
+    border-radius: 5px;
+    margin: 3px;
+    font-size: 15px;
+    padding-left: -1px;
+    padding-right: -1px;
+}
+.komorebi-workspaces .ws-btn.active {
+    color: #000000; /* Changes label color */
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 60px;
+    max-width: 60px;
+    height: 20px;
+    margin: 0 4px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-radius:5px;
+    font-size: 35px;
+}
+.apps-widget .widget-container {
+
+    margin-right: 2px;
+}
+.apps-widget .label {
+	font-size: 14px;
+	padding: 0 2px;
+}
+.apps-widget .label:hover {
+	color: #fff;
+}
+/* Systray */
+.systray {
+  background: transparent;
+  border: none;
+  margin: 0;
+  background-color: transparent;
+}
+.systray:hover {
+  background: transparent;
+}
+
+.systray .unpinned-container {
+  border-radius: 0;
+  /* background-color: transparent; */
+  margin: 2px;
+  padding: 0 4px;
+  border-right: 1px solid var(--text-secondary);
+  /* background-color: var(--bg-hover-primary); */
+}
+
+.systray .pinned-container {
+  padding: 0 4px;
+}
+
+.systray .pinned-container:hover {
+  background: transparent;
+}
+
+.systray .pinned-container[forceshow="true"] {
+}
+
+.systray .button {
+  padding: 0px 4px;
+  border-radius: var(--radius-normal);
+  padding: 6px 6px;
+  outline: none;
+}
+
+.systray .button .icon {
+}
+
+.systray .button:hover {
+  background-color: var(--bg-hover-primary);
+}
+
+.systray .button[dragging="true"] {
+  background-color: var(--bg-hover-primary);
+  border-color: var(--color-green);
+}
+
+.systray .unpinned-visibility-btn {
+  border-radius: 0px;
+  height: 20px;
+  width: 16px;
+  outline: none;
+}
+
+.systray .unpinned-visibility-btn:checked {
+}
+
+.systray .unpinned-visibility-btn:hover {
+}
+/*POWER MENU WIDGET*/
+/* Uptime text */
+.uptime {
+	font-size: 14px;
+	margin-bottom: 10px;
+	color: #ffffff;
+	font-weight: 600;
+	font-family: "Segoe UI";
+}
+.power-menu-widget .label {
+	color: #f38ba8;
+	font-size: 13px;
+}
+.power-menu-popup {
+	background-color: rgba(24, 24, 37, 0.9);
+	border-radius: 12px;
+	border: 4px solid rgb(41, 42, 58);
+}
+.power-menu-popup .button {
+	padding: 0;
+	width: 240px;
+	height: 120px;
+	border-radius: 8px;
+	background-color: rgb(41, 42, 58);
+	font-family: "Segoe UI";
+	color: white;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	margin: 8px;
+}
+.power-menu-popup .button.hover {
+	background-color: rgb(55, 56, 75);
+	border: 1px solid rgb(55, 56, 75);
+}
+.power-menu-popup .button .label {
+	margin-bottom: 8px;
+	font-size: 16px;
+	font-weight: 600;
+	color: rgba(255, 255, 255, 0.95);
+	font-family: "Segoe UI";
+}
+.power-menu-popup .button .icon {
+	font-size: 48px;
+	padding-top: 8px;
+	color: rgba(255, 255, 255, 0.25);
+}
+.power-menu-popup .button.cancel .icon {
+	color: rgba(243, 139, 168, 0.55);
+}
+.power-menu-popup .button.cancel .label {
+	color: rgba(243, 139, 168, 0.95);
+}
+.power-menu-popup .button.shutdown .icon {
+	color: rgba(137, 180, 250, 0.55);
+}
+.power-menu-popup .button.shutdown .label {
+	color: rgba(137, 180, 250, 0.95);
+}
+
+/* ICONS */
+.icon {
+	font-size: 16px;
+}
+.volume-widget .icon {
+	color: #b4b4b4;
+	margin: 1px 2px 0 0;
+}
+.cpu-widget .icon,
+.memory-widget .icon {
+	font-size: 14px;
+	color: #b4b4b4;
+	margin: 0 2px 1px 0;
+}
+.memory-widget .icon {
+	color: #ffffff;
+}
+.wifi-widget .icon {
+	color: #b4b4b4;
+	padding: 0 7px;
+	margin: 0;
+}
+
+/* Memory widget usage colors. Uncomment if you want to color of the battery widget icon to change based on status */
+
+/*
+.memory-widget.status-low .icon {
+  color: #a6e3a1;
+}
+.memory-widget.status-medium .icon {
+  color: #f9e2af;
+}
+.memory-widget.status-high .icon {
+  color: #fab387;
+}
+.memory-widget.status-critical .icon {
+  color: #f38ba8;
+}
+*/
+
+/* Battery widget value colors. Uncomment if you want to color of the battery widget icon to change based on status */
+
+/*
+.battery-widget.status-charging .icon {
+  color: #74c7ec;
+}
+.battery-widget.status-full .icon {
+  color: #94e2d5;
+}
+.battery-widget.status-high .icon {
+  color: #a6e3a1;
+}
+.battery-widget.status-medium .icon {
+  color: #f9e2af;
+}
+.battery-widget.status-low .icon {
+  color: #fab387;
+}
+.battery-widget.status-critical .icon {
+  color: #f38ba8;
+}
+*/
+
+/* WEATHER WIDGET */
+.weather-widget .icon {
+	font-size: 16px;
+	margin: 0 2px 1px 0;
+}
+.weather-widget .icon.sunnyDay {
+	color: rgb(221, 210, 107);
+}
+.weather-widget .icon.clearNight {
+	color: rgb(107, 189, 221);
+	font-size: 22px;
+	margin: 1px 2px 0px 0;
+}
+/* 
+.weather-widget .icon.cloudyDay {}
+.weather-widget .icon.cloudyNight {} 
+.weather-widget .icon.rainyDay {} 
+.weather-widget .icon.rainyNight {} 
+.weather-widget .icon.snowyIcyDay {} 
+.weather-widget .icon.snowyIcyNight {} 
+.weather-widget .icon.blizzardDay {} 
+.weather-widget .icon.default {}
+*/
+
+/* MEDIA WIDGET */
+.media-widget {
+	padding: 0;
+	padding-left: 2px;
+	margin: 0;
+	border-radius: 16px;
+	margin-right: 8px;
+}
+.media-widget .label {
+	color:#b4b4b4;
+}
+.media-widget .btn {
+	color:#b4b4b4;
+	padding: 0 3px;
+	margin: 4px 0;
+	font-family: Segoe Fluent Icons;
+}
+.media-widget .btn:hover {
+	color:#b4b4b4;
+}
+.media-widget .btn.play {
+	border-radius: 14px;
+	font-size: 16px;
+}
+.media-widget .btn.disabled:hover,
+.media-widget .btn.disabled {
+	color:#b4b4b4;
+	font-size: 12px;
+	background-color: rgba(0, 0, 0, 0);
+}
+.taskbar-widget .app-container {
+    margin: 2px 4px;
+    border-radius: 4px;
+    padding: 0 6px;
+}
+.taskbar-widget .app-container.foreground {
+    background-color:#b4b4b4;
+}
+.taskbar-widget .app-container.flashing {
+    background-color: rgba(255, 106, 106, 0.63);
+}
+.taskbar-widget .app-container.running {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+.taskbar-widget .app-container:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+.taskbar-widget .app-container .app-title {
+    padding-left: 4px;
+}
+/* Taskbar preview popup is very limited in styling options, do not use margins/paddings here */
+.taskbar-preview {
+    border-radius: 8px; 
+    background-color: #2b2c2d; 
+}
+.taskbar-preview.flashing { 
+    background-color: #7f434a;
+}
+.taskbar-preview .header {
+    padding-bottom: 12px;
+    padding-top: 4px;
+}
+.taskbar-preview .header .title {
+    color: #d6d6d6;
+    font-family: "Segoe UI";
+    font-weight: 600;
+    font-size: 13px;
+}
+
+
